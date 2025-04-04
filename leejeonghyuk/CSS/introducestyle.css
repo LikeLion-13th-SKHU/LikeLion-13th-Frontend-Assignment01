@@ -1,7 +1,28 @@
+body {
+    background-image: url(https://mblogthumb-phinf.pstatic.net/MjAxNzA0MTRfMTU4/MDAxNDkyMTU5ODk2NzYy.Jfdxj2JuQhMI9U4rjHvYSm-JevDc0bnS4RgPlyWlmXAg.SmYTkZTNEZQU20eHLt8prniji3NRlE9-k06ETostnNAg.JPEG.kdbrighteye/kd%25EB%25B0%259D%25EC%259D%2580%25EC%2595%2588%25EA%25B3%25BC_%25EB%2588%2588%25EC%259D%25B4_%25ED%258E%25B8%25EC%2595%2588%25EC%2583%2589__RGB_163%252C204%252C163.jpg?type=w966);
+}
+
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    border-bottom: 5px solid whitesmoke;
+    margin-bottom: 20px;
+
+    background-color: #c8caa4; opacity: 0.8;
+}
+
+header h1 {
+    font-style: italic;
+    font-size: 3rem;;
+}
+
 container {
     display: flex;
     justify-content: space-evenly;
-    align-items: center;
+    margin-top: 10rem;
 }
 
 .links{
@@ -12,9 +33,42 @@ container {
     align-items: center;
     border: 1px solid black;
     text-decoration: none;
+    background-color: rgb(89, 89, 89); opacity: 0.8;
+    font-size: 5rem
 }
 
 .links:hover{
     background-color: #f0f0f0;
 }
 
+main h2{
+    text-align: center;
+    font-size: 5rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+section {
+    display: flex;
+    justify-content: space-around;
+}
+
+article li{
+    font-size: 2rem;
+    margin: 1rem;
+}
+
+article p {
+    text-align: center;
+    font-size: 2rem;
+    margin: 1rem;
+}
+
+article div {
+    text-align: center;
+}
+
+article img {
+    width: 400px;
+    height: 600px;
+    margin: 1rem;
+}
