@@ -1,3 +1,12 @@
+body {
+    background-color: rgb(49, 49, 49);
+}
+
+header h1 {
+    color : white;
+    text-shadow: yellow 0.1em 0.1em 0.5em;
+}
+
 container {
     display: flex;
     justify-content: space-evenly;
@@ -10,10 +19,10 @@ header {
     left: 0;
     right: 0;
     text-align: center;
-    border-bottom: 5px solid whitesmoke;
+    border-bottom: 5px solid rgb(120, 0, 120);
     margin-bottom: 20px;
     padding: 10px;
-    background-color: #c8caa4; opacity: 0.8;
+    background-color: #000000; opacity: 0.8;
 }
 
 container {
@@ -38,3 +47,19 @@ container {
     background-color: #f0f0f0;
 }
 
+table {
+    border-collapse: collapse;
+    width: 80%;
+    color : white;
+    font-size: 1.5rem;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 2rem;
+    border : 3px solid rgb(72, 72, 255);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+table th, td{
+    padding: 10px;
+    border: 0px;
+}

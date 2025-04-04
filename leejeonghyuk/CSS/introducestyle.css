@@ -25,6 +25,12 @@ container {
     margin-top: 10rem;
 }
 
+hr {
+    height: 5px;
+    background-color: #000000;
+    border: none;
+}
+
 .links{
     display: flex;
     width: 200px;
