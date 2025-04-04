@@ -1,5 +1,14 @@
+@font-face {
+    font-family: 'SBAggroB';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/SBAggroB.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 body {
     background-color: rgb(49, 49, 49);
+    font-family: 'SBAggroB';
+    font-weight: 100;
 }
 
 header h1 {
@@ -47,7 +56,7 @@ container {
     background-color: #f0f0f0;
 }
 
-table {
+table{
     border-collapse: collapse;
     width: 80%;
     color : white;
@@ -62,4 +71,14 @@ table {
 table th, td{
     padding: 10px;
     border: 0px;
+}
+
+#talesrunner {
+    width: 50%;
+    height: 50%;
+}
+
+form {
+    display: flex;
+    justify-content: center;
 }

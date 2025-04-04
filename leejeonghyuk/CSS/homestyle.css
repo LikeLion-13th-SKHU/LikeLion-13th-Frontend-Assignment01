@@ -1,3 +1,10 @@
+@font-face {
+    font-family: 'SBAggroB';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/SBAggroB.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 body {
     background-image: url("../images/background.jpg");
     background-size: cover;
@@ -19,6 +26,8 @@ header {
 
 header h1 {
     font-size: 3rem;;
+    font-family: 'SBAggroB';
+    font-weight: 100;
 }
 
 container {
@@ -64,4 +73,16 @@ footer a {
 
 footer a:visited {
     color: black;
+}
+
+section {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    margin-top: 2rem;
+}
+
+section img {
+    width: 100%;
+    height: 500px;
 }
