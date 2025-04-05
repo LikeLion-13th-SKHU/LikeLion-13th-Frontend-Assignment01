@@ -1,0 +1,35 @@
+@font-face {
+    font-family: 'Paperlogy-8ExtraBold';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2408-3@1.0/Paperlogy-8ExtraBold.woff2') format('woff2');
+    font-weight: 800;
+    font-style: normal;
+}
+
+h1 {
+    text-align: center;
+}
+
+body {
+    font-family: 'Paperlogy-8ExtraBold';
+    background-color: #d3d3d3;
+   
+}
+
+img {
+    width: 350px;
+    height: 350px;
+}
+
+container-div {
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+h4 {
+    text-align: center;
+}
+
+nav {
+    text-align: center;
+}
