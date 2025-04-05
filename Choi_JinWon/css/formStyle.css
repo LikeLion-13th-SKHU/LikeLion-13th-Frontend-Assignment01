@@ -1,0 +1,91 @@
+/* CSS 조건 2 만족 */ /* CSS 조건 5 만족 */
+
+* {
+    box-sizing: border-box;
+}
+
+@font-face { /* CSS 조건 4 만족 */
+    font-family: 'Cafe24Ssurround';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2105_2@1.0/Cafe24Ssurround.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: "Cafe24Ssurround";
+    background-color: #fffaf3;
+    color: #4e3e35;
+    line-height: 1.5;
+}
+
+header {
+    background-color: #f2e5d7; 
+    color: #3e2f25;
+    padding: 25px 0;
+    text-align: center;
+}
+
+header h2 {
+    margin: 0;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+nav {
+    background-color: #f9efe3;
+    padding: 15px;
+    text-align: center;
+}
+
+nav a {
+    color: #8d613f;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+nav a:hover {
+    color: #5a3b28;
+    text-decoration: underline;
+}
+
+main {
+    padding: 30px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+}
+
+fieldset {
+    width: 70%;
+    max-width: 600px;
+    text-align: center;
+    font-size: 30px;
+    border: 3px solid #4e3e35;
+    border-radius: 10px;
+    padding: 25px;
+    margin-bottom: 20px;
+    background-image: url(/Choi_JinWon/image/lightBrown.jpg);
+}
+
+input[type="text"], select {
+    width: 100%;
+    max-width: 200px;
+    padding: 8px;
+    border: 2px solid #4e3e35;
+    border-radius: 15px;
+}
+
+textarea {
+    width: 100%;
+    max-width: 500px;
+    border: 2px solid #4e3e35;
+}
+
+.comment {
+    background-image: url(/Choi_JinWon/image/lightBrown.jpg);
+}
