@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/font.css" />
+    <link rel="stylesheet" href="css/home.css" />
+    <title>이다정</title>
+</head>
+
+<body>
+    <div id="wrapper">
+        <!-- html 조건 4 만족 -->
+        <header>
+            <!-- html 조건 9 만족 -->
+            <h1>안녕하세요!</h1>
+            <h2>아기사자 이다정입니다.</h2>
+        </header>
+        <!-- html 조건 5 만족 -->
+        <nav>
+            <a href="introduce.html">자기소개 페이지</a>
+            <a href="timetable.html">시간표 페이지</a>
+        </nav>
+        
+        <main>
+            <img src="image/kumquat.jpg">
+            <!-- html 조건 8 만족 -->
+            <form action="get">
+                <fieldset>
+                    <legend>방명록 쓰기</legend>
+                    이름:
+                    <input type="text" name="username" placeholder="이름을 입력하세요." required/>
+                    <br/>
+                    이메일:
+                    <input type="email" name="useremail" placeholder="이메일을 입력하세요." />
+                    <br/>
+                    하고 싶은 말: <br/>
+                    <textarea name="message" rows="4" cols="50"></textarea><br/>
+                    <button type="submit">제출하기</button>
+                    <button type="reset">초기화</button>
+                </fieldset>
+                
+            </form>
+        </main>
+        <footer>
+            <span>email: abcd@naver.com</span>
+            <span>|</span>
+            <span>phone number: 010-1234-5678</span>
+        </footer>
+    </div>
+</body>
+
+</html>

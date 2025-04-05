@@ -1,0 +1,51 @@
+body {
+    /*css 조건 3 만족 */
+    background-color: rgb(234, 239, 243);
+    text-align: center;
+}
+
+#wrapper {
+    width: 800px;
+    margin: 0 auto;
+}
+
+nav {
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(150, 171, 201);
+}
+
+nav > a {
+    color: black;
+    text-decoration: underline;
+    margin: 0 10px;
+}
+
+h2 {
+    font-weight: bold;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+#img-wrap {
+    display: flex;
+    justify-content: center;
+}
+
+img {
+    width: 200px;
+    margin: 10px 10px;
+}
+
+footer > span {
+    margin: auto 10px;
+}
