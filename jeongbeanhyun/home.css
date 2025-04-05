@@ -14,7 +14,6 @@
 main{
     font-family: 'Ownglyph_corncorn-Rg';
     display: flex;
-    flex-direction: row;
     justify-content: center;
 }
 img{
@@ -22,12 +21,13 @@ img{
 }
 div{
     margin:auto;
-    width:400px;
+    width:500px;
     color: white;
 }
-h1{
+header{
     color: white;
     text-align: center;
+    font-size: 40px;
 }
 nav{
     background-color: white;
@@ -37,13 +37,13 @@ nav{
 }
 a{
     margin: 50px;
-    font-size: 20px;
+    font-size: 30px;
 }
 body{
     background-size: cover;
     /* css 조건 3번 만족 */
-    background-image: url(https://thumb.photo-ac.com/c3/c3c2ef9894956a106237561a7364af80_t.jpeg);
+    background-image: url(https://i.pinimg.com/736x/d8/59/2c/d8592cb1848b24aba73dadf3739083c9.jpg);
 }
-h1, nav, footer{
+header, nav, footer{
     font-family: 'Ownglyph_ParkDaHyun';
 }
