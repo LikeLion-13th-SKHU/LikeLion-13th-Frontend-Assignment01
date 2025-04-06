@@ -57,7 +57,7 @@ container {
     background-color: #f0f0f0;
 }
 
-table{
+.gameTable {
     border-collapse: collapse;
     width: 80%;
     color : white;
@@ -69,7 +69,7 @@ table{
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
-table th, td{
+.gameTable th, td{
     padding: 10px;
     border: 0px;
 }
