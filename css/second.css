@@ -1,0 +1,11 @@
+article {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 5%;
+    justify-content: center;
+}
+
+video {
+    padding-top: 20px;
+}
