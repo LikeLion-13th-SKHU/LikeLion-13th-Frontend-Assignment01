@@ -1,9 +1,11 @@
+/* CSS조건 1번 만족(각 HTML 파일들과 연결) */
+/* CSS조건 2번 만족(CSS파일 생성) */
 body {
   font-family: 'KakaoSmallSans-Bold';
-    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2503@1.0/KakaoSmallSans-Bold.woff2') format('woff2');
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2503@1.0/KakaoSmallSans-Bold.woff2') format('woff2'); /* CSS조건 4번 만족(각 HTML 파일들과 연결 */
   text-align: center;
   background-size: cover;
-  background-image: url(../images/하늘1.jpg)
+  background-image: url(../images/하늘1.jpg) /* CSS조건 3번 만족(각 HTML 파일들과 연결 */
 }
 
 h1 {
@@ -12,7 +14,7 @@ h1 {
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
 }
 
-h2, h3{color: white;
+h2, h3{color: white; /* CSS조건 3번 만족(각 HTML 파일들과 연결 */
   padding: 0px;
   text-align: center;}
 
@@ -24,13 +26,11 @@ p {
 
 strong, em {
   font-size: 20px;
-  color: #ffffff;
-    /* 예: 어두운 네이비-그레이 톤 */
-  /* 빨간색으로 */
+  color: #ffffff; /* CSS조건 3번 만족(각 HTML 파일들과 연결 */
 }
 
 header {
-  color: white;
+  color: white; /* CSS조건 3번 만족(각 HTML 파일들과 연결 */
   padding: 20px;
   text-align: center;
 }
