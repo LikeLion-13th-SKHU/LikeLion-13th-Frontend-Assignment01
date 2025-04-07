@@ -1,3 +1,9 @@
+*, *::before, *::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 /* css 조건 4번 만족 */
 @font-face {
     font-family: 'Ownglyph_ParkDaHyun';
@@ -15,6 +21,9 @@ header p{
     text-align: center;
     color: black;
     font-size: 40px;
+}
+header{
+    margin: 30px;
 }
 nav{
     background-color: white;
@@ -42,7 +51,7 @@ img{
     border-radius: 50%;
 }
 hr{
-    border:0px;
+    border-style: none;
     border-top: 5px dotted #D358F7;
 }
 table{
@@ -63,7 +72,8 @@ main, table, .visitor button, .visitor textarea{
     font-family: 'Ownglyph_corncorn-Rg';
 }
 fieldset{
-    margin-bottom: 20px;
+    margin: 20px;
+    padding: 30px;
 }
 .visitor{
     display: flex;

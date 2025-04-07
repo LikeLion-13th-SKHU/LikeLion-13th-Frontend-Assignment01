@@ -1,3 +1,8 @@
+*, *::before, *::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 /* css 조건 4번 만족 */
 @font-face {
     font-family: 'Ownglyph_ParkDaHyun';
@@ -15,6 +20,9 @@ header p{
     text-align: center;
     color: white;
     font-size: 40px;
+}
+header{
+    margin: 30px;
 }
 main{
     font-family: 'Ownglyph_corncorn-Rg';
@@ -34,12 +42,14 @@ nav{
     text-align: center;
     padding: 30px;
     margin-bottom: 20px;
+    width: 100%;
 }
 a{
     margin: 50px;
     font-size: 30px;
 }
 body{
+    width: 100%;
     background-size: cover;
     /* css 조건 3번 만족 */
     background-image: url(https://i.pinimg.com/736x/d8/59/2c/d8592cb1848b24aba73dadf3739083c9.jpg);
