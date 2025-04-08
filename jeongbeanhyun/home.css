@@ -1,0 +1,59 @@
+*, *::before, *::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* css 조건 4번 만족 */
+@font-face {
+    font-family: 'Ownglyph_ParkDaHyun';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2411-3@1.0/Ownglyph_ParkDaHyun.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Ownglyph_corncorn-Rg';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2412-1@1.0/Ownglyph_corncorn-Rg.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+header p{
+    text-align: center;
+    color: white;
+    font-size: 40px;
+}
+header{
+    margin: 30px;
+}
+main{
+    font-family: 'Ownglyph_corncorn-Rg';
+    display: flex;
+    justify-content: center;
+}
+img{
+    margin-left: 200px;
+}
+div{
+    margin:auto;
+    width:600px;
+    color: white;
+}
+nav{
+    background-color: white;
+    text-align: center;
+    padding: 30px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+a{
+    margin: 50px;
+    font-size: 30px;
+}
+body{
+    width: 100%;
+    background-size: cover;
+    /* css 조건 3번 만족 */
+    background-image: url(https://i.pinimg.com/736x/d8/59/2c/d8592cb1848b24aba73dadf3739083c9.jpg);
+}
+header, nav, footer{
+    font-family: 'Ownglyph_ParkDaHyun';
+}
