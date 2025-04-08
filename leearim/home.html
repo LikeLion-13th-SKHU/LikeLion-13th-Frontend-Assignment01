@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+<head> 
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="css/basic.css" />
+  <title>자기소개 홈</title>
+</head>
+
+<body> <!-- html 조건 4번 만족-->
+  <header>
+    <h1>이아림</h1>
+    <p>자기소개</p><br />
+    <nav> <!-- html 조건 5번 만족-->
+      <ul> <!-- html 조건 6번 만족-->
+        <li><a href="home.html">소개</a></li> 
+        <li><a href="introduce.html">좋아하는 음식</a> <br></li>
+        <li><a href="hobby.html">취미</a></li>
+      </ul>
+    </nav>
+    <hr style="width: 98%;" />
+  </header>
+  
+  <main>
+    <section>
+      <h2>정보 소개</h2> <!-- html 조건 9번 만족-->
+      <form action="get">
+        <fieldset>
+          <legend>기본 정보</legend>
+          이름:
+          <input type="text" name="username" placeholder="이름 입력" required /><br />
+          학부:
+          <input type="text" name="school" required /><br />
+          이메일: <input type="email" name="email" required /><br />
+          성별:
+          <input type="radio" name="gender" value="male" />남성
+          <input type="radio" name="gender" value="female" />여성<br />
+          생년월일 <input type="date" name="birthday" /><br />
+        </fieldset>
+      
+        <fieldset>
+          <legend>추가 정보</legend>
+          나이: <input type="number" name="age" min="1" max="150" /><br />
+          전화번호: <input type="tel" name="phone" placeholder=" - 제외" /><br />
+          학번: <input type="number" name="student_id" placeholder="학번 입력" /><br />
+        </fieldset>
+      
+        <fieldset>
+          <legend>추가 입력</legend>
+          메시지: <br />
+          <textarea name="message" rows="4" cols="50" placeholder="하고 싶은 말을 적어주세요."></textarea><br /> <!-- html 조건 8번 만족-->
+          국가 선택:
+          <select name="country">
+            <option value="kr">한국</option>
+            <option value="kr">미국</option>
+            <option value="kr">일본</option>
+            <option value="kr">중국</option>
+          </select><br />
+        </fieldset>
+        <br />
+        <button type="submit">제출</button>
+        <button type="reset">초기화</button>
+      </form>
+
+      <article>  
+        <hr >
+        <table class="time" border="1"> <!-- html 조건 7번 만족-->
+          <caption style="font-size: 22px; font-weight: bold; color: aliceblue; margin-bottom: 10px;">
+            시간표
+          </caption>
+          <tr>
+            <th>시간</th>
+            <th>월</th>
+            <th>화</th>
+            <th>수</th>
+            <th>목</th>
+            <th>금</th>
+          </tr>
+          <tr>
+            <td>9</td>
+            <td></td>
+            <td></td>
+            <td rowspan="3">데이터 베이스</td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>10</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>11</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>12</td>
+            <td>java</td>
+            <td rowspan="3">빅데이터의 이해</td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>13</td>
+            <td rowspan="2">javascript</td>
+            <td rowspan="2">javascript</td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>14</td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>15</td>
+            <td>논리회로</td>
+            <td rowspan="2">진로와 직업의 세계</td>
+            <td>논리회로</td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>16</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>17</td>
+            <td></td>
+            <td></td>
+            <td>채플</td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>18</td>
+            <td></td>
+            <td>전공지도</td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+        </table>
+      </article>
+      
+    </section>
+  </main>
+  <hr />
+  <footer>&lt; 이아림 자기소개 페이지 &gt;</footer> <!-- html 조건 10번 만족-->
+</body>
+</html>

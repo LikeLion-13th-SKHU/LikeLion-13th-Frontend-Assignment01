@@ -1,0 +1,18 @@
+article {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 5%;
+    justify-content: center;
+}
+
+video {
+    padding-top: 20px;
+}
+
+.game{
+    padding: 10px;
+    /* 내부 여백 */
+    text-align: center;
+    font-size: large;
+    /* 텍스트 중앙 정렬 */}
