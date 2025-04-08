@@ -1,0 +1,43 @@
+<!DOCTYPE html> <!--HTML 조건 1 만족-->
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>자기소개 - 질문</title> <!--HTML 조건 3 만족-->
+    <link rel="stylesheet" href="/Choi_JinWon/css/formStyle.css"> <!--CSS 조건 1 만족-->
+</head>
+<body>
+    <header> <!--HTML 조건 4 만족-->
+        <h2>저에 대해 궁금하신 게 있군요!!</h2> <!--HTML 조건 9 만족-->
+    </header>
+    <nav> <!--HTML 조건 5 만족-->
+        <a href="home.html">홈으로 돌아갈까요?? &#40;클릭&#41;</a><br>
+        <a href="introduce.html">저를 자세히 알고 싶으신가요?? &#40;클릭&#41;</a><br>
+        <a href="hobby.html">저의 취미가 궁금하신가요?? &#40;클릭&#41;</a>
+    </nav>
+    <main>
+        <section>
+            <form> <!--HTML 조건 8-2 만족-->
+                <fieldset>
+                    <legend>누군지 알려주세요!!</legend>
+                        이름 :
+                        <input type="text" name="username" placeholder="홍길동"><br><br>
+                        파트 :
+                        <select>
+                            <option value="front">프론트앤드</option>
+                            <option value="back">백앤드</option>
+                            <option value="ai">인공지능</option>
+                        </select>
+                </fieldset>
+                <fieldset>
+                    <legend>궁금한 점을 물어봐주세요!!</legend>
+                    <textarea name="question" rows="5" cols="50"></textarea>
+                </fieldset>
+            </form>
+        </section>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>
