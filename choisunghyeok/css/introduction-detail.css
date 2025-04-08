@@ -1,0 +1,38 @@
+/*css 조건 2번 만족*/
+@font-face {
+    font-family: 'Paperlogy-8ExtraBold';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2408-3@1.0/Paperlogy-8ExtraBold.woff2') format('woff2');
+    font-weight: 800;
+    font-style: normal;
+}/*css 조건 4번 만족*/
+
+body {
+    font-family: 'Paperlogy-8ExtraBold';
+    background-image: url(https://search.pstatic.net/sunny/?src=https%3A%2F%2Fcdn.pixabay.com%2Fphoto%2F2020%2F04%2F22%2F15%2F26%2Fsky-5078665_1280.jpg&type=sc960_832);/*css 조건 3번 만족*/
+    background-size: cover;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+}
+
+div {
+    background-color: whitesmoke;
+    
+}
+
+container-div {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    
+}
+
+h2 {
+    text-align: center;
+}
+
+nav {
+    text-align: center;
+}
