@@ -1,0 +1,18 @@
+@font-face {/*css 조건 4번 만족 */
+    font-family: 'Ownglyph_corncorn-Rg';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2412-1@1.0/Ownglyph_corncorn-Rg.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+header{
+    background-color: rgb(20, 175, 237);
+}
+body{
+    background-image: url(https://png.pngtree.com/thumb_back/fh260/background/20190222/ourmid/pngtree-minimalistic-sky-clouds-illustration-background-cloudsillustration-backgroundfairy-taleminimalistic-image_55470.jpg);/*css 조건 3번 만족 */
+    font-family: 'Ownglyph_corncorn-Rg';/*css 조건 4번 만족 */
+    font-weight: normal;
+    font-style: normal;
+}
+footer{
+    background-color: rgb(20, 175, 237);
+}
