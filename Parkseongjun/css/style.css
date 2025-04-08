@@ -1,0 +1,91 @@
+/* css 조건 3번 만족 */
+body {
+    background-image: url('../img/background.png');
+    font-family: 'Noto Sans KR', sans-serif;
+}
+/* css 조건 3번 만족 */
+.main-item {                
+    display: flex; gap: 40px; 
+    justify-content: center;
+    align-items: center;
+    margin-top: -10px;
+    margin-left: 10px;
+    background-color:rgb(18,22,39);
+}
+.main-name {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 3vw;
+    line-height: 50px;
+
+    color: #fff;
+}
+.main-item {
+    margin-left: -8px;
+    margin-right: -8px;
+}
+
+.icon {
+    text-decoration: none;
+}
+
+.school-info {
+    text-align: center;
+}
+
+.introduce-name {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 3vw;
+    line-height: 44px;
+    color: #fff;
+}
+
+#piano {
+    display: inline-block;
+    width: 560px;
+}
+
+.ask-name {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 3vw;
+    line-height: 44px;
+    color: #fff;
+}
+
+.table-main-line {
+    display: inline-block;
+    border: solid 5px rgba(255, 255, 255, 0.534);
+    margin-left: 25vw;
+    border-radius: 15px;
+    text-align: center;
+    border-collapse: collapse;
+    font-size: 20px;
+}
+
+.table-main-line th,
+.table-main-line td {
+    border: 5px solid  rgba(255, 255, 255, 0.3);
+    font-weight: bold;
+}
+
+.table-main-line caption {
+    font-size: 24px;
+    font-weight: bold;
+    color: #0f4c75;
+    margin: 10px;
+}
+
+.profile-section {
+    text-align: center;
+}
+
+#end {
+    text-align: right;
+    font-weight: bold;
+    font-size: 25px;
+}
