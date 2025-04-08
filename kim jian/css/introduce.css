@@ -1,0 +1,13 @@
+body{
+    background-image: url(https://cdn.pixabay.com/photo/2019/06/01/07/45/rays-4243604_960_720.jpg) ;
+    background-size: cover;
+    color: white; /* css 조건 3번 */
+    font-family: 'Cafe24Ohsquare'; 
+}
+
+@font-face {
+    font-family: 'Cafe24Ohsquare'; /* css 조건 4번 */
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/Cafe24Ohsquare.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}

@@ -1,0 +1,17 @@
+h1 {
+    text-align: center;
+}
+body{
+    text-align: center;
+    background-image: url(https://cdn.pixabay.com/photo/2016/06/06/09/57/clef-1439137_960_720.jpg) ;
+    background-size: cover;
+    color: white; /* css 조건 3번 */
+    font-family: 'Cafe24Ohsquare';
+}
+
+@font-face {
+    font-family: 'Cafe24Ohsquare'; /* css 조건 4번 */
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/Cafe24Ohsquare.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
